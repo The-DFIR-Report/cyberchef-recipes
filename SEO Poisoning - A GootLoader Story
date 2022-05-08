@@ -1,1 +1,9 @@
-From_Base64('A-Za-z0-9+/=',true) Remove_null_bytes() Subsection('[A-Za-z0-9+/=]{26,}',true,true,false) From_Base64('A-Za-z0-9+/=',true) Remove_null_bytes() Merge() Find_/_Replace({'option':'Regex','string':';'},';\\n',true,false,true,false) Find_/_Replace({'option':'Simple string','string':'"+"'},'',true,false,true,false) Syntax_highlighter('auto detect'
+From_Base64('A-Za-z0-9+/=',true)
+Remove_null_bytes()
+Subsection('[A-Za-z0-9+/=]{26,}',true,true,false)
+From_Base64('A-Za-z0-9+/=',true)
+Remove_null_bytes()
+Merge()
+Find_/_Replace({'option':'Regex','string':';'},';\\n',true,false,true,false)
+Find_/_Replace({'option':'Simple string','string':'"+"'},'',true,false,true,false)
+Syntax_highlighter('auto detect'
